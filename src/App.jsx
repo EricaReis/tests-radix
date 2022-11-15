@@ -1,9 +1,13 @@
-import './styles/global.css';
+import './styles/styles.global.css'
+import { Button } from './components/Button';
 
 export function App() {
 
   return (
-   <h1>Hello World!</h1>
+    <div className="w-screen h-screen bg-gray">
+
+   <Button>Create account</Button>
+    </div>
   )
 }
 
